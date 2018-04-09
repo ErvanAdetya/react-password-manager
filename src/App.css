@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.message-success {
+  background: rgb(99, 224, 58, 0.8)
+}
+
+.message-warning {
+  background: rgba(224, 62, 57, 0.8)
+}
+
+.passwordList {
+  font-size: 1.2vw
+}
+
+.passwordList-header {
+  background: #222;
+  font-size: 1.3vw;
+  color: whitesmoke
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
