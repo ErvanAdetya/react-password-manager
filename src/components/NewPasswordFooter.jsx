@@ -9,7 +9,7 @@ import ButtonDisabled from './ButtonDisabled';
 
 import NewPasswordFooterCondition from './NewPasswordFooterCondition'
 
-class newPasswordFooter extends Component {
+export class newPasswordFooter extends Component {
   savePassword = () => {
     let displayedPassword = ''
     Array.prototype.map.call(this.props.newPassword.password, (val) => {
@@ -33,7 +33,7 @@ class newPasswordFooter extends Component {
 
   render() {
     return (
-      <div>
+      <div className='container'>
         {
           this.props.condition.requirement ? 
             <Button

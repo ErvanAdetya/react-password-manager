@@ -6,7 +6,7 @@ import { savePasswordHandleChange } from '../store/newPassword/newPassword.actio
 import { passwordChecker } from '../store/passwordChecker/passwordChecker.actions';
 import Input from './Input';
 
-class NewPasswordBody extends Component {
+export class NewPasswordBody extends Component {
   handleChange = (event) => {
     let payload = {
       name: event.target.name,

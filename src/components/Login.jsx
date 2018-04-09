@@ -10,7 +10,7 @@ import Button from './Button';
 import MessageBox from './MessageBox'
 import LoadingButton from './LoadingButton';
 
-class Login extends Component {
+export class Login extends Component {
   constructor() {
     super();
     this.state = {

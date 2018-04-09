@@ -6,10 +6,12 @@ export default class NewPasswordFooterCondition extends Component {
   render() {
     return (
       <div>
-          {/* <TrueFalseIcon status={ this.props.condition }/> */}
-        <p>
-          {JSON.stringify(this.props.condition)} { this.props.text }
-        </p>
+        {
+          this.props.condition?
+            <small></small>
+          :
+            <small className='input-false'> { this.props.text } </small>
+        }
       </div>
     )
   }

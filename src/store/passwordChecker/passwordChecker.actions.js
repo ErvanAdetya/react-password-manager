@@ -12,7 +12,7 @@ export const minVal = 5;
 const containNumeric = new RegExp("[0-9]");
 const containLowercase = new RegExp("[a-z]");
 const containUppercase = new RegExp("[A-Z]");
-const containSpecialChar = new RegExp("[!@#$%^&]");
+const containSpecialChar = new RegExp("[!@#$%^&*()-_=+,<>.~`/':]");
 
 let status = false;
 
